@@ -20,7 +20,7 @@ spec:
               - matchExpressions:
                   - key: size
                     operator: In
-                    value:
+                    values:
                       - Large
                       - Medium
       containers:
